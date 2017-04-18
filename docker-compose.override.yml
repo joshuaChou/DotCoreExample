@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  coremvc:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+  db:
+    environment:
+      - POSTGRES_PASSWORD:1qaz@WSX
+    ports:
+      - "5432"
